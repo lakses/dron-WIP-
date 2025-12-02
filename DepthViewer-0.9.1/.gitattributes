@@ -1,0 +1,4 @@
+DEPTH/Assets/Plugins/OnnxRuntimeDlls/win-x64/*.dll filter=lfs diff=lfs merge=lfs -text
+
+# This makes the notebook files (usually big since they have images embedded) be ignored by the GitHub language stat
+*.ipynb linguist-vendored 
